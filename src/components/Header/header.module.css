@@ -1,0 +1,38 @@
+/* header.module.css */
+@keyframes highlight {
+  0%,
+  100% {
+    background-size: 0% 100%;
+    color: white; /* Ensures the text is white when not highlighted */
+  }
+  10%,
+  90% {
+    color: transparent; /* Only transparent when the gradient should be seen */
+    background-size: 200% 100%;
+  }
+}
+
+.animatedWord {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Applies the gradient as the text color */
+  animation: highlight 6s ease infinite;
+  display: inline-block;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.gradientGame {
+  background-image: linear-gradient(to right, #f8f83f, #b90909);
+  animation-delay: 0s; /* Highlights 'Game' first */
+}
+
+.gradientName {
+  background-image: linear-gradient(to right, #078f98, #69059b);
+  animation-delay: 2s; /* Highlights 'Name' second */
+}
+
+.gradientGenerator {
+  background-image: linear-gradient(to right, #8127c6, #030302);
+  animation-delay: 4s; /* Highlights 'Generator' third */
+}

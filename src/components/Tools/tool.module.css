@@ -1,0 +1,68 @@
+/* Variations for 'Game' */
+.gameV1 {
+  animation: highlightFast 3s linear infinite;
+  background-image: linear-gradient(to right, #fba634, #fd8c3d);
+}
+.gameV2 {
+  animation: highlightSlow 12s ease-in-out infinite;
+  background-image: linear-gradient(to left, #fba634, #fd8c3d);
+}
+.gameV3 {
+  animation: highlightFast 4s ease infinite;
+  background-image: linear-gradient(to bottom, #fba634, #fd8c3d);
+}
+.gameV4 {
+  animation: highlightFast 5s ease-in infinite;
+  background-image: linear-gradient(to right, #fba634, #ffffff);
+}
+.gameV5 {
+  animation: highlightSlow 10s ease-out infinite;
+  background-image: linear-gradient(to right, #fd8c3d, #fba634);
+}
+/* Additional variations can adjust other properties like animation-timing-function, duration, or different color schemes */
+
+/* Variations for 'Name' */
+.nameV1 {
+  animation: highlightFast 3s ease infinite;
+  background-image: linear-gradient(to right, #01cddd, #e00b90);
+}
+.nameV2 {
+  animation: highlightSlow 6s ease infinite;
+  background-image: linear-gradient(to left, #01cddd, #e00b90);
+}
+.nameV3 {
+  animation: highlightFast 4s linear infinite;
+  background-image: linear-gradient(to bottom, #01cddd, #e00b90);
+}
+.nameV4 {
+  animation: highlightFast 8s ease-out infinite;
+  background-image: linear-gradient(to right, #e00b90, #01cddd);
+}
+.nameV5 {
+  animation: highlightSlow 11s linear infinite;
+  background-image: linear-gradient(to right, #01cddd, #ffffff);
+}
+/* Repeat similar adjustments for other variations */
+
+/* Variations for 'Generator' */
+.generatorV1 {
+  animation: highlightFast 3s ease-in-out infinite;
+  background-image: linear-gradient(to right, #8127c6, #030302);
+}
+.generatorV2 {
+  animation: highlightSlow 7s ease infinite;
+  background-image: linear-gradient(to left, #8127c6, #030302);
+}
+.generatorV3 {
+  animation: highlightFast 5s ease-in infinite;
+  background-image: linear-gradient(to bottom, #8127c6, #030302);
+}
+.generatorV4 {
+  animation: highlightSlow 9s ease-out infinite;
+  background-image: linear-gradient(to top, #8127c6, #030302);
+}
+.generatorV5 {
+  animation: highlightFast 8s linear infinite;
+  background-image: linear-gradient(to right, #030302, #8127c6);
+}
+/* Continue creating variations similarly */

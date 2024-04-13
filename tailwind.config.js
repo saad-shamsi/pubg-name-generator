@@ -8,8 +8,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      // #22223b
       colors: {
-        dark: "#1b1b1b",
+        dark: "#000000",
         light: "#fff",
         accent: "#7B00D3",
         accentDark: "#ffdb4d",

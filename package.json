@@ -20,6 +20,7 @@
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "github-slugger": "^2.0.0",
+    "lodash": "^4.17.21",
     "next": "13.5.4",
     "next-contentlayer": "^0.3.4",
     "next-sitemap": "^4.2.2",
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "encoding": "^0.1.13",
-    "sharp": "^0.32.6"
+    "sharp": "^0.32.6",
+    "typescript": "^5.4.5"
   }
 }
