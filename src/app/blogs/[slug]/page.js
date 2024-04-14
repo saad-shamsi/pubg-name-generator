@@ -1,7 +1,7 @@
 import BlogDetails from "@/components/Blog/BlogDetails";
 import RenderMdx from "@/components/Blog/RenderMdx";
 import Tag from "@/components/Elements/Tag";
-import siteMetadata from "@/utils/siteMetaData";
+import siteMetadata from "@/utils/siteMetaData.js";
 import { allBlogs } from "contentlayer/generated";
 import { slug } from "github-slugger";
 import Image from "next/image";

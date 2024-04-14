@@ -1,4 +1,4 @@
-import InsightRoll from "@/components/About/InsightRoll";
+import InsightRoll from "@/components/About/InsightRoll.js";
 
 
 const insights = [
