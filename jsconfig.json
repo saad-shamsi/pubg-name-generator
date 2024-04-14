@@ -1,10 +1,9 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",  // This sets the base directory for non-relative imports
+  "@Options": {
+    "baseUrl": ".",
     "paths": {
-      "@/src/*": ["src/*"],  // Corrects the path for src
-      "@/*": ["src/*"],  // Adds an alias directly to the src directory
-      "contentlayer/generated": [".contentlayer/generated"]
+      "@/*": ["src/*"], // Ensures anything under src can be referenced from "@/"
+    // Allows imports like "@/components/About/InsightRoll" to resolve correctly.
     }
   },
   "include": [

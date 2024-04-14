@@ -1,4 +1,4 @@
-import Tool from '@/src/components/Tools/StlyleName'
+import Tool from '@/components/Tools/StlyleName'
 import Link from 'next/link'
 import React from 'react'
 

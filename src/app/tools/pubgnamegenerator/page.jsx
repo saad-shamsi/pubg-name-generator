@@ -1,4 +1,4 @@
-import NameGenerator from "@/src/components/Tools/NameGenerator";
+import NameGenerator from "@/components/Tools/NameGenerator";
 import React from "react";
 
 const page = () => {
